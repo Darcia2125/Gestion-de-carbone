@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+	.serv-page{
+		margin: 7% 5%;
+	}
+	.service-tab{
+		margin-top: 7%;
+		padding: 15px;
+		border-top: solid 2px #003054;
+		box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+	}
+	.service-tab .nav-tabs .nav-link{
+		font-size: 15px;
+		letter-spacing: 0.5px;
+		color: #777;
+	}
+	.service-tab .nav-tabs .nav-link:hover{
+		color: #003054;
+	}
+	.service-tab .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+		color: #003054;
+		font-weight: bold;
+	}
+	.service-tab .tab-content{
+		padding: 40px 0;
+	}
+	.tab-card{
+		padding: 60px 20px 20px;
+		margin: 40px 0 30px 0;
+		text-align: center;
+		background: #003054;
+		border-radius: 3px;
+	}
+	.tab-card .fa{
+		position: absolute;
+		left: 50%;
+		top: 0;
+		font-size: 30px;
+		width: 80px;
+		color: #EBFCFD;
+		height: 80px;
+		line-height: 70px;
+		text-align: center;
+		background:  linear-gradient(to right,#840006,#00045E);;
+		border: solid 4px #fff;
+		margin-left: -40px;
+		border-radius: 50%;
+		box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+		transition: all .4s ease-in-out;
+	}
+	.tab-card:hover .fa{
+	    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.3);
+	}
+	.tab-card p{
+		font-size: 20px;
+	    letter-spacing: .5px;
+	    color: #fff!important;
+	}
+	

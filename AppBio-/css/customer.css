@@ -1,0 +1,81 @@
+
+.login {
+  padding-top: 100px;
+     
+ 
+}
+.bcg {
+  padding-top: 70px;
+ 
+}
+
+.navbar a{
+	color: #fff !important;
+}
+
+
+#register:hover{
+          font-size: 20px;
+          font-family: COMIC SANS MS;
+          text-decoration: none;
+
+
+}
+
+.container1 a {
+    display: inline-block;
+    vertical-align: top; /* Adjust if multi-line text */
+    margin: 20px;
+   
+    
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+   color:white; 
+    list-style: none;  
+     width:100px;
+    height:100px;
+    background-color:#004d99;
+    border-radius:0.5em;
+    
+    
+    
+}
+.container1 a img {
+    
+    margin: auto;
+    border: 0;
+
+    
+
+}
+.container1 a span {
+    display: block;
+    color: #004d99;
+}
+
+.fa-plus-circle:hover{
+            color: #009900;
+}
+
+.fa-trash:hover{
+	color: #800000;
+}
+.fa-pencil-square-o:hover{
+	color: skyblue;
+}
+.fa-list-alt:hover{
+	color: #001a33;
+}
+
+.fa-btc:hover{
+  color: orange;
+}
+
+.imghov:hover{
+  width: 100px;
+  height: 100px;
+  border: solid 1px white;
+  border-radius: 0.5em;
+}
+

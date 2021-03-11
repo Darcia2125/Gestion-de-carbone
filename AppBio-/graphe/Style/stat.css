@@ -1,0 +1,127 @@
+
+#map svg {
+    position: relative;
+    width: 300px;
+    padding-top: 00px !important;
+    height:auto ;
+    float: left;
+    padding-left: 150px !important;
+    margin-left: -80px;
+    
+}
+g[id^=MD]>path {
+    fill: #3d3938;
+    fill-opacity: .8;
+}
+g[id^=MD]>text {
+    fill-opacity: 0;
+    -webkit-transition: all ease .3s;
+    transition: all ease .3s;
+}
+g[id^=MD]:hover>path {
+    fill: #690303 !important ;
+}
+g[id^=MD]:hover>text {
+    fill-opacity: 1s !important;
+}
+g[id^=MD] {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-perspective: 300px;
+            perspective: 300px;
+}
+ #close_map {
+    position: absolute;
+    fill: #ad1a1a;
+    stroke-width: 20px;
+    width: 45px;
+    height: 45px;
+    right: 2rem;
+    top: 1rem;
+    cursor: pointer;
+    top: 1400px;
+    left: 20px;
+  }
+#close_map:hover{
+    fill: blue !important;
+}
+
+p1
+{
+	border: solid;
+	border-color:#000000;
+	border-radius: 6px;
+    font-size: 10px;
+    font-style: italic;
+	padding-top: 12px;
+	padding-bottom: 16px;
+	border-width: 1px;
+    border-right-width:thick;
+    border-bottom-width: thick;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 0 !important;
+    margin-top:0px !important;
+}
+p2 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#a:hover{
+	border-color: rgb(10, 61, 228);
+	background-color: rgb(111, 219, 247);
+}
+#b:hover{
+	border-color: rgb(12, 218, 74);
+	background-color: rgb(38, 179, 92);
+}
+#c:hover{
+	border-color: rgb(233, 8, 8);
+	background-color: tomato;
+}
+#d:hover{
+	border-color:rgb(172, 15, 132);
+	background-color:  rgb(233, 8, 214);
+}
+#e:hover{
+	border-color: rgb(249, 253, 5);
+	background-color: rgb(255, 191, 71);
+}
+.cas
+{
+	padding-top: 20px;
+}
+.debile
+{
+	margin-left: 1%;
+}
+select
+{
+	width: 150px;
+	height: 30px;
+	border-radius: 6px;
+    border-width: 1px;    
+}
+.afficher
+{
+padding-top: 50px;
+padding-right:  30px;
+float: right;
+}
+.imge{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.main{
+    margin-top: 40px;
+}
+.chart{
+    margin-top: 30px;
+    margin-left:5px !important;
+
+}
+.area_name{
+    margin-top: 40px;
+}

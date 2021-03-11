@@ -1,0 +1,18 @@
+/* Footer */
+.footer1 { background-image: linear-gradient(to right,#000000 ,#003054);}
+.footer1 a { color: #fff; }
+.footer1 .widget-title { font-size: 17px; font-weight: bold; color: #fff!important; }
+	
+.follow-me-icons { font-size:30px; }		
+.follow-me-icons i { float:left; margin:0 20px 0 0; }		
+
+.footer2 { background: #191919; color: #fff!important; font-size: 12px; }
+.footer2 a { color: #fff!important; }
+
+
+	
+.widget-body
+{
+	color: #fff!important;
+}
+
